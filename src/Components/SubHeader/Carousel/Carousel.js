@@ -74,6 +74,9 @@ function Carousel() {
 
                     </div>
                     </div>
+                    <div className="col-12 d-flex justify-content-center mt-5">
+            <a className="btn btn-lg btn-dark">View All </a>
+          </div>
             </div>
          </div>
      </section>

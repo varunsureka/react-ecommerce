@@ -7,7 +7,7 @@ function Footer() {
     <div className="container">
       <div className="row">
         <div className="col-6 col-lg-2 mb-3">
-          <h5 className="lh-lg fw-bold">Company Info</h5>
+          <h5 className="lh-lg fw-bold footer-headings">Company Info</h5>
           <ul className="list-unstyled mb-md-4 mb-lg-0">
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">About Us</a></li>
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">Affiliate</a></li>
@@ -15,7 +15,7 @@ function Footer() {
           </ul>
         </div>
         <div className="col-6 col-lg-2 mb-3">
-          <h5 className="lh-lg fw-bold">Help &amp; Support</h5>
+          <h5 className="lh-lg fw-bold footer-headings">Help &amp; Support</h5>
           <ul className="list-unstyled mb-md-4 mb-lg-0">
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">Shipping Info</a></li>
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">Refunds</a></li>
@@ -25,7 +25,7 @@ function Footer() {
           </ul>
         </div>
         <div className="col-6 col-lg-2 mb-3">
-          <h5 className="lh-lg fw-bold">Customer Care</h5>
+          <h5 className="lh-lg fw-bold footer-headings">Customer Care</h5>
           <ul className="list-unstyled mb-md-4 mb-lg-0">
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">Contact Us</a></li>
             <li className="lh-lg"><a className="text-800 text-decoration-none" href="#!">Payment Methods</a></li>
@@ -33,7 +33,7 @@ function Footer() {
           </ul>
         </div>
         <div className="col-sm-6 col-lg-auto ms-auto">
-          <h5 className="lh-lg fw-bold">Signup For The Latest News</h5>
+          <h5 className="lh-lg fw-bold footer-headings">Signup For The Latest News</h5>
           <div className="row input-group-icon mb-5">
             <div className="col-12">
               <input className="form-control input-box" type="email" placeholder="Enter Email" aria-label="email" />
