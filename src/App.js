@@ -5,6 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Menu from "./Components/Menu";
 import Cart from "./Components/Cart";
+import Products from "./Components/Products/Products";
 
 function App(){
   return (
@@ -13,7 +14,8 @@ function App(){
 <Routes>
 <Route path="/" element={<Menu />}>
 <Route index element={<SubHeader />}/>
- <Route path="cart" element={<Cart />} />
+<Route path="/products" element={<Products />} />
+
 {/* <Route path="*" element={<Error1/>} /> */}
 </Route>
 </Routes>

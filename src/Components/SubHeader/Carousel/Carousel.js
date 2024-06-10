@@ -1,8 +1,9 @@
 import React,{useEffect,useState} from 'react';
 import axios  from 'axios';
+import { Link } from 'react-router-dom';
 
 function Carousel() {
-    const url = 'https://fakestoreapi.com/products';
+    const url = 'http://localhost:8000/products';
     const [images,setImages]= useState([]);
      let item =  null;
      
@@ -75,7 +76,7 @@ function Carousel() {
                     </div>
                     </div>
                     <div className="col-12 d-flex justify-content-center mt-5">
-            <a className="btn btn-lg btn-dark">View All </a>
+            <Link to="/products" className="btn btn-lg btn-dark">View All </Link>
           </div>
             </div>
          </div>
