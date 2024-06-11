@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 function Header() {
   return (
     <main className="main" id="top">
     <nav  className="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block backdrop shadow-transition" data-navbar-on-scroll="data-navbar-on-scroll">
          <div className="container">
-            <a href="" className="navbar-brand d-inline-flex">
-             <img className="d-inline-block" src="../../assets/img/logo.png" alt="" />
+            <Link to="/" className="navbar-brand d-inline-flex">
+            <img className="d-inline-block" src="../../assets/img/logo.png" alt="" />
              <span className="text-1000 fs-0 fw-bold ms-2">Modern Shop</span>
-             </a>
+             </Link>
               <div className="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" style={{justifyContent:'end'}}>
                  <div className="d-flex">
                     <a href="" className="text-1000">
